@@ -1,0 +1,263 @@
+@media screen and (max-width: 900px) {
+    .header {
+        grid-template-columns: none;
+        width: 100%;
+    }
+
+    .topnav {
+        display: none;
+    }
+
+    .topnav.active {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hamburger {
+        background: none;
+        border: none;
+        font-size: 24px;
+        color: #F3DB83;
+        cursor: pointer;
+    }
+
+    .hamburger:hover {
+        background: none;
+        border: none;
+        font-size: 24px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .image-container {
+        display: grid;
+        grid-template-columns: 90% 10%;
+    }
+
+    .image-container a {
+        width: 124px;
+    }
+
+    .header-content {
+        width: 100%;
+        height: auto;
+    }
+
+    .header-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+
+    .item1 {
+        grid-column: 1 / span 3;
+        grid-row: 1;
+        text-align: center;
+    }
+
+    .gospa {
+        font-size: 13px;
+    }
+
+    .special {
+        font-size: 45px;
+    }
+
+    .item2 {
+        grid-column: 1 / span 3;
+        grid-row: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .spa-intro {
+        font-size: 14px;
+    }
+
+    .booknow {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100px;
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .item3 {
+        grid-column: 1;
+        grid-row: 3;
+        display: flex;
+        justify-content: center;
+    }
+
+    .item3 img {
+        width: 100%;
+    }
+
+    .item4 {
+        grid-column: 2;
+        grid-row: 3;
+        display: flex;
+        justify-content: center;
+    }
+
+    .item4 img {
+        width: 100%;
+    }
+
+    .item5 {
+        grid-column: 3;
+        grid-row: 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item5 img {
+        width: 100%;
+    }
+
+    .viewall {
+        margin-top: 15px;
+    }
+
+    .viewall a {
+        font-size: 12px;
+    }
+
+    .item6 {
+        grid-column: 1 / span 3;
+        grid-row: 4;
+    }
+
+    .item6 img {
+        width: 100%;
+    }
+
+    .dichvu-title {
+        font-size: 25px;
+    }
+
+    .dichvu1 .dichvu_name {
+        font-size: 20px;
+    }
+
+    .tieuchi_title {
+        font-size: 20px;
+    }
+
+    .banner_title {
+        font-size: 32px;
+    }
+
+    .banner p {
+        width: 100%;
+    }
+
+    .mb {
+        margin-bottom: 50px;
+    }
+
+    .album-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .feedback_title {
+        font-size: 25px;
+    }
+
+    .tieuchi1 {
+        height: 300px;
+        width: auto;
+    }
+
+    .tieuchi1 .tieuchi_name {
+        font-size: 15px;
+    }
+
+    .tieuchi1 p {
+        font-size: 12px;
+    }
+
+    .banner_title {
+        font-size: 32px;
+    }
+
+    .banner p {
+        font-size: 16px;
+    }
+
+    .feedback_title {
+        font-size: 32px;
+    }
+
+    .feedback p {
+        font-size: 16px;
+        width: auto;
+        margin: 0;
+    }
+
+    .feedback1 {
+        width: auto;
+        height: 298px;
+    }
+
+    .footer_name {
+        font-size: 30px;
+    }
+
+    .footer1 {
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    .footer1 p {
+        font-size: 12px;
+    }
+
+    .footer_hotline {
+        font-size: 12px;
+    }
+
+    .footer2 {
+        font-size: 10px;
+    }
+
+    .modal-content {
+        width: 80%;
+        font-family: "Lora-Med";
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: 0.4s;
+        animation-name: animatetop;
+        animation-duration: 0.4s
+    }
+
+    /* code cho service */
+
+    .all-dichvu {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .viewmore {
+        margin-top: 10px;
+        width: 100px;
+        padding: 3px;
+        font-size: 14px;
+    }
+
+    /* to top button */
+    #top {
+        width: 25px;
+        height: 25px;
+        bottom: 35px;
+        right: 20px;
+    }
+
+    #top::after {
+        font-size: 1em;
+        line-height: 25px;
+    }
+}
